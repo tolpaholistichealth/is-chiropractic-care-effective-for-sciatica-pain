@@ -1,0 +1,79 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+#top-ul {
+  line-height: 2rem;
+  font-size: 1.1rem;
+  color: #555;
+  padding-left: 1.5rem;
+}
+#top-ul > li {
+  list-style-type: disc;
+}
+
+#key-benefits {
+  list-style-position: outside;
+  line-height: 2rem;
+  font-size: 1.1rem;
+  color: #555;
+  padding-left: 1.5rem;
+  margin-left: 1rem;
+}
+#key-benefits > li {
+  list-style-type: disc;
+}
+.techniques-list li {
+  list-style-type: circle;
+  margin-left: 1.5rem;
+}
+
+
+ul.social {
+  padding-left: 0;
+}
+ul.social li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 5px;
+}
+ul.social li a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background: #eee;
+  line-height: 43px;
+  color: #fff;
+  text-align: center;
+}
+
+
+@media (max-width: 480px) {
+  ul.social li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+td, th {
+  border: 1px solid black !important;
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
